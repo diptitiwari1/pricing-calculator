@@ -5,9 +5,9 @@
   "source": "src/index.html",
   "homepage": "https://diptitiwari1.github.io/pricing-calculator",
   "scripts": {
-    "start": "parcel --no-source-maps",
-    "build": "rimraf dist && parcel build --no-source-maps",
-    "deploy": "gh-pages -d dist -b main -u 'github-actions-bot <support+actions@github.com>'"
+    "start": "parcel src/index.html --no-source-maps",
+    "build": "rimraf dist && parcel build src/index.html --no-source-maps",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
