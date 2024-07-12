@@ -6,7 +6,7 @@
   "homepage": "https://diptitiwari1.github.io/pricing-calculator",
   "scripts": {
     "start": "parcel --no-source-maps",
-    "build": "rimraf dist && parcel build --no-source-maps",
+    "build": "parcel build --no-source-maps",
     "deploy": "gh-pages -d dist"
   },
   "author": "",
@@ -27,4 +27,3 @@
     "typescript": "^5.5.3"
   }
 }
-
