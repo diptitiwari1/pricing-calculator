@@ -2,7 +2,6 @@
   "name": "pricing-calculator",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://diptitiwari1.github.io/pricing-calculator",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel --no-source-maps",
